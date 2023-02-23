@@ -1,0 +1,98 @@
+/* banner css */
+.carouselButton {
+  position: relative;
+}
+.carouselImage {
+  background: linear-gradient(red blue);
+}
+/* .previousButton{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+} */
+.previousButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin-left: 550%;
+  margin-top: -40%;
+  border: 1px solid #ff3811;
+  /* padding didnot working */
+  /* padding: 10px 10px; */
+  border-radius: 50px;
+  background-color: #ff3811;
+}
+.nextButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin-left: 600%;
+  margin-top: -40%;
+  border: 1px solid #ff3811;
+  /* padding didnot working */
+  padding: 10px 10px;
+  border-radius: 50px;
+  background-color: #ff3811;
+}
+
+/* about csss */
+
+.firstCol {
+  position: relative;
+}
+.person {
+  width: 300px;
+  background-color: #ff3811;
+}
+.parts {
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  border: 5px solid white;
+}
+.miniheaderText {
+  color: #df3413;
+}
+
+/* service css starts */
+.serviceDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.serviceCol {
+  height: 350px;
+}
+
+/* address css */
+.addressDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* popular products css */
+/* .fw-bold{
+   line-height: 0%;
+} */
+.text1 {
+  /* line-height: 20%; */
+  font-weight: 300;
+}
+.text2 {
+  line-height: 10%;
+  font-weight: 300;
+}
+.productsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  height: 300px;
+}
