@@ -43,14 +43,26 @@
         <!-- navbar links -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav m-auto nav">
-            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-            
-            <li class="nav-item"><a class="nav-link" href="./service.html">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="./checkout.html">Checkout</a></li>
-            <li class="nav-item"><a class="nav-link" href="./newService.html">Add Service</a></li>
-           <li class="nav-item"><a class="nav-link" href="./Signin.html">SignIn</a></li>
-            <li class="nav-item"><a class="nav-link" href="./signup.html">SignUp</a></li>
-            
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonial</a>
+            </li>
           </ul>
           <span class="navbar-text">
             <a href=""><i class="fa-solid fa-cart-shopping p-2"></i></a>
@@ -63,163 +75,87 @@
       </nav>
     </header>
     <!-- nav section ends -->
-    <!-- carousel section starts -->
-    <div
-      id="carouselExampleCaptions"
-      class="carousel slide m-auto "
-      data-bs-ride="carousel"
-      style="height: 600px; width: 1000px; "
-      
-    >
-    <!-- carousel inicator button -->
-      <!-- <div class="carousel-indicators" >
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div> -->
-      <div class="carousel-inner  " >
-        <div class="carousel-item active">
-          <img
-            src="./assets/images/banner/1.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="./assets/images/banner/2.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="./assets/images/banner/3.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
+
+    <!-- Home section starts -->
+    <section id="home">
+      <div class="text-center upperDiv navbar-expand-sm">
+        <img
+          src="./assets/images/checkout/checkout.png"
+          class="service"
+          alt=""
+        />
+
+        <h2 class="bannerText">Get 10% off on your first order</h2>
       </div>
-      <!-- carousel Button -->
-      <button
-        class="carousel-control-prev carouselButton"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span
-          class="carousel-control-prev-icon previousButton"
-          aria-hidden="true"
-        ></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next carouselButton"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span
-          class="carousel-control-next-icon nextButton"
-          aria-hidden="true"
-        ></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- carousel section ends -->
+    </section>
+    <!-- Home section end -->
+
     <!-- about us section starts -->
 
-
-    <div class=" overflow-hidden" style="margin-top: 100px;">
-      <div class="row gx-5">
-        <!-- image coloum -->
-        <div class="col p-5 text-center">
-          <div class="firstCol">
-            <img
-              class="aboutImage person"
-              src="./assets//images/about_us/person.jpg"
-              alt=""
-            />
-            <img
-              class="aboutImage parts d-none d-sm-block"
-              src="./assets//images/about_us/parts.jpg"
-              alt=""
-            />
+    <section id="aboutUs">
+      <div class="overflow-hidden" style="margin-top: 100px;">
+        <div class="row gx-5">
+          <!-- image coloum -->
+          <div class="col p-5 text-center">
+            <div class="firstCol">
+              <img
+                class="aboutImage person"
+                src="./assets//images/about_us/person.jpg"
+                alt=""
+              />
+              <img
+                class="aboutImage parts d-none d-sm-block"
+                src="./assets//images/about_us/parts.jpg"
+                alt=""
+              />
+            </div>
           </div>
-        </div>
-        <!-- text coloum -->
-        <div class="col p-5">
-          <div class="p-3">
-            <h6 class="miniheaderText">About us</h6>
-            <h1>We are qualified & of experience in this field</h1>
-            <p class="textPara">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable.
-            </p>
-            <p class="textPara">
-              the majority have suffered alteration in some form, by injected
-              humour, or randomised words which don't look even slightly
-              believable.
-            </p>
-            <button type="button" class="btn btn-danger">Appointment</button>
+          <!-- text coloum -->
+          <div class="col p-5">
+            <div class="p-3">
+              <h6 class="miniheaderText">About us</h6>
+              <h1>We are qualified & of experience in this field</h1>
+              <p class="textPara">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable.
+              </p>
+              <p class="textPara">
+                the majority have suffered alteration in some form, by injected
+                humour, or randomised words which don't look even slightly
+                believable.
+              </p>
+              <button type="button" class="btn btn-danger">Appointment</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- about us section ends -->
     <!-- service section starts -->
 
     <!-- text div -->
-     <div>
-      <h6 class="text-center miniheaderText">Service</h6>
-      <h1 class="text-center">Our service Area</h1>
-      <p class="textPara text-center">
-        the majority have suffered alteration in some form, by injected humour,
-        or randomised words which don't look even slightly believable.
-      </p>
-      <p class="textPara text-center servicepara">
-        or randomised words which don't look even slightly believable.
-      </p>
-     </div>
+    <section id="services">
+      <div>
+        <h6 class="text-center miniheaderText">Service</h6>
+        <h1 class="text-center">Our service Area</h1>
+        <p class="textPara text-center">
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <p class="textPara text-center servicepara">
+          or randomised words which don't look even slightly believable.
+        </p>
+      </div>
       <div class="container py-5">
         <div
           class="row row-cols-1 row-cols-md-3 row-cols-lg-3 row-cols-sm-1 g-2 g-lg-3"
         >
-        <!-- first coloum -->
-          <div class="col " >
+          <!-- first coloum -->
+          <div class="col">
             <div class="p-3 border bg-light">
-              <img class="w-100 serviceCol" src="./assets/images/services/1.jpg" alt="" />
+              <img class="image" src="./assets/images/services/1.jpg" alt="" />
               <h5 class="pt-3 fw-bold">Electric system</h5>
               <div class="serviceDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
@@ -229,10 +165,14 @@
               </div>
             </div>
           </div>
-             <!-- last coloum -->
-          <div class="col serviceCol">
+          <!-- second coloum -->
+          <div class="col">
             <div class="p-3 border bg-light">
-              <img src="./assets/images/services/2.jpg" class="w-100 serviceCol" alt="" />
+              <img
+                src="./assets/images/services/2.jpg"
+                class="w-100 serviceCol"
+                alt=""
+              />
               <h5 class="pt-3 fw-bold">Electric system</h5>
               <div class="serviceDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
@@ -242,10 +182,14 @@
               </div>
             </div>
           </div>
-             <!-- third coloum -->
-          <div class="col serviceCol">
+          <!-- third coloum -->
+          <div class="col">
             <div class="p-3 border bg-light">
-              <img src="./assets/images/services/3.jpg" class="w-100 serviceCol" alt="" />
+              <img
+                src="./assets/images/services/3.jpg"
+                class="w-100 serviceCol"
+                alt=""
+              />
               <h5 class="pt-3 fw-bold">Electric system</h5>
               <div class="serviceDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
@@ -255,10 +199,14 @@
               </div>
             </div>
           </div>
-             <!-- fourth coloum -->
-          <div class="col serviceCol">
+          <!-- fourth coloum -->
+          <div class="col">
             <div class="p-3 border bg-light">
-              <img src="./assets/images/services/4.jpg" class="w-100 serviceCol" alt="" />
+              <img
+                src="./assets/images/services/4.jpg"
+                class="w-100 serviceCol"
+                alt=""
+              />
               <h5 class="pt-3 fw-bold">Electric system</h5>
               <div class="serviceDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
@@ -268,10 +216,14 @@
               </div>
             </div>
           </div>
-             <!-- fifth coloum -->
-          <div class="col serviceCol">
+          <!-- fifth coloum -->
+          <div class="col">
             <div class="p-3 border bg-light">
-              <img src="./assets/images/services/5.jpg" class="w-100 serviceCol" alt="" />
+              <img
+                src="./assets/images/services/5.jpg"
+                class="w-100 serviceCol"
+                alt=""
+              />
               <h5 class="pt-3 fw-bold">Electric system</h5>
               <div class="serviceDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
@@ -281,10 +233,14 @@
               </div>
             </div>
           </div>
-             <!-- sixth coloum -->
-          <div class="col serviceCol">
+          <!-- sixth coloum -->
+          <div class="col">
             <div class="p-3 border bg-light">
-              <img src="./assets/images/services/6.jpg" class="w-100 serviceCol" alt="" />
+              <img
+                src="./assets/images/services/6.jpg"
+                class="w-100 serviceCol"
+                alt=""
+              />
               <h5 class="pt-3 fw-bold">Electric system</h5>
               <div class="serviceDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
@@ -296,19 +252,20 @@
           </div>
         </div>
       </div>
-      <div class="text-center py-5 " style="margin-top: 100px;">
+      <div class="text-center py-5" style="margin-top: 100px;">
         <button type="button" class="btn btn-outline-danger">
           More Details
         </button>
       </div>
     </section>
+
     <!-- service section ends -->
 
     <!-- address section starts -->
 
-    <div class=" bg-dark rounded py-5">
+    <div class="bg-dark rounded py-5">
       <div
-        class="row row-cols-2 row-cols-lg-3 row-cols-md-3 row-cols-sm-1 g-2 g-lg-3"
+        class="row row-cols-1 row-cols-md-3 row-cols-lg-3 row-cols-sm-1 g-2 g-lg-3"
       >
         <div class="col">
           <div class="p-3 addressDiv">
@@ -345,29 +302,33 @@
     </div>
     <!-- address section end -->
     <!-- popular products starts -->
-    <section>
+    <section id="products">
       <!-- text div -->
-    <div>
-      <p class="miniheaderText fw-bold text-center p-5">Popular Products</p>
-      <h4 class="text-center fw-bold">Browse Our Products</h4>
+      <div>
+        <p class="miniheaderText fw-bold text-center p-5">Popular Products</p>
+        <h4 class="text-center fw-bold">Browse Our Products</h4>
 
-      <p class="text-center text1">
-        the majority have suffered alteration in some form, by injected humour,
-        or
-      </p>
-      <p class="text-center text2">
-        randomised words which don't look even slightly believable.
-      </p>
-    </div>
-        
+        <p class="text-center text1">
+          the majority have suffered alteration in some form, by injected
+          humour, or
+        </p>
+        <p class="text-center text2">
+          randomised words which don't look even slightly believable.
+        </p>
+      </div>
+
       <div class="container py-5">
         <div
           class="row row-cols-1 row-cols-md-3 row-cols-lg-3 row-cols-sm-1 g-2 g-lg-3"
         >
-           <!-- first coloum -->
+          <!-- first coloum -->
           <div class="col">
-            <div class="p-3 border ">
-              <img  class="w-100 image bg-light" src="./assets/images/products/1.png" alt="" />
+            <div class="p-3 border">
+              <img
+                class="w-100 image bg-light"
+                src="./assets/images/products/1.png"
+                alt=""
+              />
               <div class="text-center text-danger pt-3">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -378,15 +339,18 @@
               <h5 class="pt-3 fw-bold text-center">Electric system</h5>
               <div class="productsDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
-               
               </div>
             </div>
           </div>
-             <!-- second coloum -->
+          <!-- second coloum -->
           <div class="col upperDiv">
-            <img src="./assets/Group 54.png" class="shoppingCart" alt="">
+            <img src="./assets/Group 54.png" class="shoppingCart" alt="" />
             <div class="p-3 border">
-              <img src="./assets/images/products/2.png" class="w-100 image  bg-light" alt="" />
+              <img
+                src="./assets/images/products/2.png"
+                class="w-100 image bg-light"
+                alt=""
+              />
               <div class="text-center text-danger pt-3">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -397,32 +361,17 @@
               <h5 class="pt-3 fw-bold text-center">Electric system</h5>
               <div class="productsDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
-              
               </div>
             </div>
           </div>
-             <!-- third coloum -->
-          <div class="col">
-            <div class="p-3 border ">
-              <img src="./assets/images/products/3.png" class="w-100 image bg-light" alt="" />
-              <div class="text-center text-danger pt-3">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <h5 class="pt-3 fw-bold text-center">Electric system</h5>
-              <div class="productsDiv">
-                <p class="miniheaderText fw-bold">price :$900</p>
-              
-              </div>
-            </div>
-          </div>
-             <!-- fourth coloum -->
+          <!-- third coloum -->
           <div class="col">
             <div class="p-3 border">
-              <img src="./assets/images/products/4.png" class="w-100 image  bg-light" alt="" />
+              <img
+                src="./assets/images/products/3.png"
+                class="w-100 image bg-light"
+                alt=""
+              />
               <div class="text-center text-danger pt-3">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -433,32 +382,17 @@
               <h5 class="pt-3 fw-bold text-center">Electric system</h5>
               <div class="productsDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
-              
               </div>
             </div>
           </div>
-             <!-- fifth coloum -->
-          <div class="col">
-            <div class="p-3 border ">
-              <img src="./assets/images/products/5.png" class="w-100 image bg-light" alt="" />
-              <div class="text-center text-danger pt-3">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <h5 class="pt-3 fw-bold text-center">Electric system</h5>
-              <div class="productsDiv">
-                <p class="miniheaderText fw-bold">price :$900</p>
-               
-              </div>
-            </div>
-          </div>
-             <!-- sixth coloum -->
+          <!-- fourth coloum -->
           <div class="col">
             <div class="p-3 border">
-              <img src="./assets/images/products/6.png" class="w-100 image  bg-light" alt="" />
+              <img
+                src="./assets/images/products/4.png"
+                class="w-100 image bg-light"
+                alt=""
+              />
               <div class="text-center text-danger pt-3">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -469,7 +403,48 @@
               <h5 class="pt-3 fw-bold text-center">Electric system</h5>
               <div class="productsDiv">
                 <p class="miniheaderText fw-bold">price :$900</p>
-               
+              </div>
+            </div>
+          </div>
+          <!-- fifth coloum -->
+          <div class="col">
+            <div class="p-3 border">
+              <img
+                src="./assets/images/products/5.png"
+                class="w-100 image bg-light"
+                alt=""
+              />
+              <div class="text-center text-danger pt-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="pt-3 fw-bold text-center">Electric system</h5>
+              <div class="productsDiv">
+                <p class="miniheaderText fw-bold">price :$900</p>
+              </div>
+            </div>
+          </div>
+          <!-- sixth coloum -->
+          <div class="col">
+            <div class="p-3 border">
+              <img
+                src="./assets/images/products/6.png"
+                class="w-100 image bg-light"
+                alt=""
+              />
+              <div class="text-center text-danger pt-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="pt-3 fw-bold text-center">Electric system</h5>
+              <div class="productsDiv">
+                <p class="miniheaderText fw-bold">price :$900</p>
               </div>
             </div>
           </div>
@@ -483,23 +458,23 @@
     </section>
     <!-- popular products ends -->
     <!-- team section starts -->
-    <section>
+    <section id="team">
       <!-- text div -->
-     <div> 
-      <p class="miniheaderText fw-bold text-center">Team</p>
-      <h1 class="text-center fw-bold">Meet Our Team</h1>
-      <p class="text-center text1">
-        the majority have suffered alteration in some form, by injected humour,
-        or
-      </p>
-      <p class="text-center text2">
-        randomised words which don't look even slightly believable.
-      </p>
-    </div>
+      <div>
+        <p class="miniheaderText fw-bold text-center">Team</p>
+        <h1 class="text-center fw-bold">Meet Our Team</h1>
+        <p class="text-center text1">
+          the majority have suffered alteration in some form, by injected
+          humour, or
+        </p>
+        <p class="text-center text2">
+          randomised words which don't look even slightly believable.
+        </p>
+      </div>
       <div
         class="py-5 row row-cols-1 row-cols-md-3 row-cols-lg-3 row-cols-sm-1 g-2 g-lg-3"
       >
-      <!-- first column -->
+        <!-- first column -->
         <div class="col p-5">
           <div class="p-3 border bg-light">
             <img class="w-100" src="./assets/images/team/1.jpg" alt="" />
@@ -555,24 +530,24 @@
     <!-- team section ends -->
 
     <!-- core features section starts -->
-    <section>
+    <section id="features">
       <!-- text div -->
-   <div>
-    <p class="miniheaderText fw-bold text-center">Core Features</p>
-    <h1 class="text-center fw-bold">Why choose us</h1>
-    <p class="text-center text1">
-      the majority have suffered alteration in some form, by injected humour,
-      or
-    </p>
-    <p class="text-center text2">
-      randomised words which don't look even slightly believable.
-    </p>
-   </div>
+      <div>
+        <p class="miniheaderText fw-bold text-center">Core Features</p>
+        <h1 class="text-center fw-bold">Why choose us</h1>
+        <p class="text-center text1">
+          the majority have suffered alteration in some form, by injected
+          humour, or
+        </p>
+        <p class="text-center text2">
+          randomised words which don't look even slightly believable.
+        </p>
+      </div>
       <div class="container">
         <div
           class="row row-cols-1 row-cols-lg-6 row-cols-md-3 row-cols-sm-1 g-2 g-lg-3"
         >
-        <!-- first column -->
+          <!-- first column -->
           <div class="col">
             <div class="p-3 border p-3 text-center rounded">
               <img src="./assets/icons/check.svg" alt="" />
@@ -580,9 +555,9 @@
             </div>
           </div>
           <!-- second column -->
-          <div class="col ">
+          <div class="col">
             <div class="p-3 border p-3 text-center btn-danger rounded">
-              <img  src="./assets/icons/Group 38729.svg" alt="" />
+              <img src="./assets/icons/Group 38729.svg" alt="" />
               <p class="text-center">100% gauranty</p>
             </div>
           </div>
@@ -619,130 +594,156 @@
     </section>
     <!-- core features section ends -->
     <!-- testimonial section starts -->
-    <section>
+    <section id="testimonials">
       <!-- text div -->
-     <div>
-         <p class="miniheaderText fw-bold text-center py-5">Core Features</p>
-        <h1 class="text-center fw-bold p-3">Why choose us</h1>
-        <p class="text-center text1">
-          the majority have suffered alteration in some form, by injected humour,
-          or
-        </p>
-        <p class="text-center text2">
-          randomised words which don't look even slightly believable.
-        </p>
-     </div>
-        <div class="container py-5">
-          <div
-            class="row row-cols-1 row-cols-lg-2 row-cols-md-2 row-cols-sm-1 g-2 g-lg-3"
-          >
+      <div>
+        <h1 class="text-center fw-bold p-3">Teestimonials</h1>
+      </div>
+      <div class="container py-5">
+        <div
+          class="row row-cols-1 row-cols-lg-2 row-cols-md-2 row-cols-sm-1 g-2 g-lg-3"
+        >
           <!-- first colum -->
-            <div class="col upperDiv ">
-             <img src="./assets/Frame.png" class="left" alt="" srcset="">
-      <div class="p-3 border bg-light">
-        <div class="testimonialFirstDiv">
-         <div class="testimonialDiv">
-           <img src="./assets//images/testimonial/Ellipse 2 (1).png" alt="">
-           <div>
-            <h2 class="ms-3">Awlad Hossain</h2>
-           <h6 class="ms-3">Businessman</h6>
-           </div>
-         </div>
-         <div>
-          <img src="./assets/icons/quote 1.png" class="quote " alt="">
-         </div>
-        </div>
-        <div>
-          <p class="testimonialPara">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-           <div class=" text-danger">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+          <div class="col upperDiv">
+            <img
+              src="./assets/Frame.png"
+              class="left d-none d-md-block"
+              alt=""
+              srcset=""
+            />
+            <div class="p-3 border bg-light">
+              <div class="testimonialFirstDiv">
+                <div class="testimonialDiv">
+                  <img
+                    src="./assets//images/testimonial/Ellipse 2 (1).png"
+                    alt=""
+                  />
+                  <div>
+                    <h2 class="ms-3">Awlad Hossain</h2>
+                    <h6 class="ms-3">Businessman</h6>
+                  </div>
+                </div>
+                <div>
+                  <img src="./assets/icons/quote 1.png" class="quote" alt="" />
+                </div>
               </div>
-        </div>
-      </div>
-    </div>
-             <!-- second colum -->
-                  <div class="col upperDiv ">
-                       <img src="./assets/Vector.png" class="right" alt="" srcset="">
-      <div class="p-3 border bg-light">
-        <div class="testimonialFirstDiv">
-         <div class="testimonialDiv">
-           <img src="./assets//images/testimonial/Ellipse 2.png" alt="">
-           <div>
-            <h2 class="ms-3">Awlad Hossain</h2>
-           <h6 class="ms-3">Businessman</h6>
-       
-           </div>
-         </div>
-         <div>
-          <img src="./assets/icons/quote 1.png" class="quote " alt="">
-         </div>
-        </div>
-        <div>
-          <p class="testimonialPara">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-           <div class=" text-danger">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+              <div>
+                <p class="testimonialPara">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable.
+                </p>
+                <div class="text-danger">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
               </div>
-        </div>
-      </div>
-    </div>
-          
+            </div>
+          </div>
+          <!-- second colum -->
+          <div class="col upperDiv">
+            <img
+              src="./assets/Vector.png"
+              class="right d-none d-md-block"
+              alt=""
+              srcset=""
+            />
+            <div class="p-3 border bg-light">
+              <div class="testimonialFirstDiv">
+                <div class="testimonialDiv">
+                  <img
+                    src="./assets//images/testimonial/Ellipse 2.png"
+                    alt=""
+                  />
+                  <div>
+                    <h2 class="ms-3">Awlad Hossain</h2>
+                    <h6 class="ms-3">Businessman</h6>
+                  </div>
+                </div>
+                <div>
+                  <img src="./assets/icons/quote 1.png" class="quote" alt="" />
+                </div>
+              </div>
+              <div>
+                <p class="testimonialPara">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable.
+                </p>
+                <div class="text-danger">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- testimonial section ends -->
     <!-- footer section starts -->
-    <div class="container bg-dark">
-  <div class="row row-cols-1 row-cols-lg-4 row-cols-md-1 row-cols-sm-1 g-2 g-lg-3">
-    <div class="col">
-      <div class="p-3 text-light ">
-        <img src="./assets/logo.svg" class="" style="width: 80px;" alt="">
-        <p class="footerPara pt-4">Edwin Diaz is a software and web technologies engineer, a life coach trainer who is also a serial .</p>
-         <div class=" text-danger">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-youtube"></i>
-              <i class="fa-brands fa-whatsapp"></i>
+    <footer>
+      <div class="container bg-dark">
+        <div
+          class="row row-cols-1 row-cols-lg-4 row-cols-md-1 row-cols-sm-1 g-2 g-lg-3"
+        >
+          <div class="col">
+            <div class="p-3 text-light">
+              <img
+                src="./assets/logo.svg"
+                class=""
+                style="width: 80px;"
+                alt=""
+              />
+              <p class="footerPara pt-4">
+                Edwin Diaz is a software and web technologies engineer, a life
+                coach trainer who is also a serial .
+              </p>
+              <div class="text-danger">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
             </div>
+          </div>
+          <div class="col">
+            <div class="p-3 text-light">
+              <h6>About</h6>
+              <p>Home</p>
+              <p>Service</p>
+              <p>Contact</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 text-light">
+              <h6>Comapany</h6>
+              <p>Why Car Doctor?</p>
+              <p>About</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 text-light">
+              <h6>
+                Support
+              </h6>
+              <p>Support Center</p>
+              <p>Feedback</p>
+              <p>Accesbility</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col ">
-      <div class="p-3 text-light ">
-        <h6>About</h6>
-        <p>Home</p>
-        <p>Service</p>
-        <p>Contact</p>
-      </div>
-    </div>
-    <div class="col ">
-      <div class="p-3 text-light">
-        <h6>Comapany</h6>
-        <p>Why Car Doctor?</p>
-        <p>About</p>
-      </div>
-    </div>
-    <div class="col ">
-      <div class="p-3 text-light">
-        <h6>
-        Support
-      </h6>
-      <p>Support Center</p>
-      <p>Feedback</p>
-      <p>Accesbility</p>
-    </div>
-    </div>
- 
-   
-  </div>
-</div>
+    </footer>
     <!-- footer section ends -->
     <!-- js bundle link -->
     <script
